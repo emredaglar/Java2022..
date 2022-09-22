@@ -2,14 +2,25 @@ package com.company;
 
 public class AsalSayi {
     public static void main(String[] args) {
-        int sayi11 = 20;
-        int sayi2 = 25;
-        int sayi3 = 5;
-        int enBuyuk = sayi11;
-        if (enBuyuk < sayi2) {
-            enBuyuk = sayi2;
+        int number=0;
+        int remainder=number%2;
+
+        if (number==2){
+            System.out.println("Sayı asaldır");
+            return;
+        }
+        if (number<2){
+            System.out.println("Geçersiz sayı.");
+            return;
         }
 
-        System.out.println(enBuyuk);
+        boolean isPrime=false;
+
+        if (remainder==1){
+            System.out.println("Sayı Asaldır.");
+        }else{
+            System.out.println("Sayı asal değildir.");
+        }
+
     }
 }
