@@ -1,6 +1,6 @@
 package com.company;
 
-public class Deneme {
+public class AsalSayi {
     public static void main(String[] args) {
         int sayi11 = 20;
         int sayi2 = 25;
