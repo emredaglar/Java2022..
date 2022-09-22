@@ -2,8 +2,16 @@ package com.company;
 
 public class AsalSayi {
     public static void main(String[] args) {
-        int number=0;
-        int remainder=number%2;
+        int number=11;
+
+        boolean isPrime=true;
+
+        for(int i=2;i<number;i++){
+            if (number%i==0){
+                isPrime=false;
+                return;
+            }
+      }
 
         if (number==2){
             System.out.println("Sayı asaldır");
@@ -14,9 +22,7 @@ public class AsalSayi {
             return;
         }
 
-        boolean isPrime=false;
-
-        if (remainder==1){
+        if (isPrime){
             System.out.println("Sayı Asaldır.");
         }else{
             System.out.println("Sayı asal değildir.");
