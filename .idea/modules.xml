@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Java2022.iml" filepath="$PROJECT_DIR$/Java2022.iml" />
+      <module fileurl="file://$PROJECT_DIR$/arkadasSayi/arkadasSayi.iml" filepath="$PROJECT_DIR$/arkadasSayi/arkadasSayi.iml" />
       <module fileurl="file://$PROJECT_DIR$/reCapDemo/reCapDemo.iml" filepath="$PROJECT_DIR$/reCapDemo/reCapDemo.iml" />
     </modules>
   </component>

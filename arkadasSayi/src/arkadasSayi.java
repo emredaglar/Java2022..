@@ -1,5 +1,3 @@
-package com.company;
-
 public class arkadasSayi {
     public static void main(String[] args) {
         int number1=221;
